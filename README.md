@@ -2,7 +2,7 @@
 
 ## Description
 
-Movie Matchmaker is a movie recommendation web app that lets users rate a curated queue of titles and receive ranked recommendations based on similarity matches from historical ratings data. The interface is designed with a streaming-inspired experience, including a poster-first queue, featured title spotlight, ranked results rail, and responsive light/dark themes.
+Movie Matchmaker is a movie recommendation web app that lets users rate a curated queue of titles and receive ranked recommendations based on similarity matches from historical ratings data. The interface is designed with a streaming-inspired experience, including a poster-first queue, featured title spotlight, ranked results rail, and a responsive dark theme.
 
 ## Features
 
@@ -12,7 +12,7 @@ Movie Matchmaker is a movie recommendation web app that lets users rate a curate
 - Ranked recommendation results with sortable views
 - IMDb quick-access links for recommended titles
 - Responsive interface for desktop and mobile screens
-- Light and dark mode toggle
+- Dark mode interface by default
 - Vercel-ready Next.js deployment setup
 
 ## Technologies

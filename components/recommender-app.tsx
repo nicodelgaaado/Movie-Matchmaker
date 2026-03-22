@@ -13,7 +13,6 @@ import {
   TvMinimalPlay,
 } from "lucide-react";
 
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -200,19 +199,16 @@ export function RecommenderApp({ itemsToRate }: RecommenderAppProps) {
 
         <div className="relative grid gap-8 p-6 lg:grid-cols-[minmax(0,1.4fr)_minmax(20rem,0.9fr)] lg:p-8">
           <div className="min-w-0 flex flex-col gap-5">
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <div className="flex flex-wrap items-center gap-2">
-                <Badge className="bg-primary/10 text-primary">
-                  Stream Profile
-                </Badge>
-                <Badge
-                  className="border-border bg-background/70 text-muted-foreground"
-                  variant="outline"
-                >
-                  {itemsToRate.length} titles in queue
-                </Badge>
-              </div>
-              <ThemeToggle />
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge className="bg-primary/10 text-primary">
+                Stream Profile
+              </Badge>
+              <Badge
+                className="border-border bg-background/70 text-muted-foreground"
+                variant="outline"
+              >
+                {itemsToRate.length} titles in queue
+              </Badge>
             </div>
 
             <div className="space-y-4">
